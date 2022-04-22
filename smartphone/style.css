@@ -1,0 +1,264 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-45deg, rgb(255, 241, 251), rgb(239, 250, 255), white);
+    justify-content: center top;
+    align-items: center;
+    row-gap: 2vmin;
+    border-radius: 20px;
+    width: 45%;
+    height: 100%;
+    padding: 10vmin;
+    padding-bottom: 10vmin;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    
+}
+        .row#one{
+            display: flex;
+        flex-direction: row;
+}
+.app{
+    transition: transform  1s;
+
+
+}
+.app:hover{
+    transform: scale(1.04);
+
+
+}
+    .app#one{
+        width: 10vmin;
+        height: 10vmin;
+        background: linear-gradient(40deg, pink, rgb(255, 136, 136));
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#two{
+        width: 10vmin;
+        height: 10vmin;
+        background: rgb(176, 170, 255);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#three{
+        width: 10vmin;
+        height: 10vmin;
+        background-image: url(/smartphone/img/pastel.gif);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#four{
+        width: 10vmin;
+        height: 10vmin;
+        background: rgb(0, 0, 0);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+
+
+}  /*ROW TWO*/
+        .row#two{
+            display: flex;
+        flex-direction: row;
+}
+    .app#five{
+        width: 10vmin;
+        height: 10vmin;
+        background-image:url(/smartphone/img/clouds.jpg);
+        background-size: cover;
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#six{
+        width: 10vmin;
+        height: 10vmin;
+        background: rgb(255, 138, 239);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#seven{
+        width: 10vmin;
+        height: 10vmin;
+        background-image: url('/smartphone/img/rainbowpastel.gif');
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#eight{
+        width: 10vmin;
+        height: 10vmin;
+        background: rgb(228, 255, 196);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+
+
+
+
+}  /*ROW THREE*/
+        .row#three{
+            display: flex;
+        flex-direction: row;
+}
+    .app#nine{
+        width: 10vmin;
+        height: 10vmin;
+        background: rgb(195, 255, 245);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#ten{
+        width: 10vmin;
+        height: 10vmin;
+        background: linear-gradient(60deg, lightblue, rgb(255, 255, 135));
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#eleven{
+        width: 10vmin;
+        height: 10vmin;
+        background-image: url(/smartphone/img/porple.gif);
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+}
+    .app#twelve{
+        width: 10vmin;
+        height: 10vmin;
+        background-image:url(/smartphone/img/rainbowflower.jpg);
+        background-size: cover;
+        flex-shrink: 1;
+        border-radius: 20%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+        border: 2px solid black;
+        margin: 10px;
+
+
+}  /*ROW FOUR*/
+    .row#four{
+        display: flex;
+    flex-direction: row;
+}
+.app#thirteen{
+    width: 10vmin;
+    height: 10vmin;
+    background-image:url(/smartphone/img/gradient.gif);
+    flex-shrink: 1;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+    border: 2px solid black;
+    margin: 10px;
+}
+.app#fourteen{
+    width: 10vmin;
+    height: 10vmin;
+    background-image:url(/smartphone/img/flower.jpg);
+    background-size: cover;
+    flex-shrink: 1;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+    border: 2px solid black;
+    margin: 10px;
+}
+.app#fifteen{
+    width: 10vmin;
+    height: 10vmin;
+    background: rgb(254, 255, 219);
+    flex-shrink: 1;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+    border: 2px solid black;
+    margin: 10px;
+}
+.app#sixteen{
+    width: 10vmin;
+    height: 10vmin;
+    background: rgb(145, 184, 236);
+    flex-shrink: 1;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+    border: 2px solid black;
+    margin: 10px;
+
+
+
+}  /*ROW FIVE*/
+.row#five{
+    display: flex;
+flex-direction: row;
+}
+.app#seventeen{
+width: 10vmin;
+height: 10vmin;
+background-image:url(/smartphone/img/rainbowslime.gif);
+flex-shrink: 1;
+border-radius: 20%;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+border: 2px solid black;
+margin: 10px;
+}
+.app#eighteen{
+width: 10vmin;
+height: 10vmin;
+background: rgb(244, 202, 255);
+flex-shrink: 1;
+border-radius: 20%;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+border: 2px solid black;
+margin: 10px;
+}
+.app#nineteen{
+width: 10vmin;
+height: 10vmin;
+background-image:url(/smartphone/img/rainbow.gif);
+flex-shrink: 1;
+border-radius: 20%;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+border: 2px solid black;
+margin: 10px;
+}
+.app#twenty{
+width: 10vmin;
+height: 10vmin;
+background: rgb(255, 225, 225);
+flex-shrink: 1;
+border-radius: 20%;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+border: 2px solid black;
+margin: 10px;
+}
