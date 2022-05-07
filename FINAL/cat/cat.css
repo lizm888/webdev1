@@ -133,9 +133,6 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 166, 178, 0.75), rgba(255, 166, 178, 0.75), rgba(255, 166, 178, 0.75), rgba(0, 0, 0, 0));
 }
-.bullets{
-    list-style-image: url("\FINAL\cat\other stuff\catheart.gif");
-}
 /*FONT END*/
 
 /*image stuff*/
@@ -143,7 +140,7 @@ hr{
 .catwalk{
     position: absolute;
     right: 0px;
-    width: 8vmax;
+    width: 7vmax;
     bottom: 0em;
     
 }
