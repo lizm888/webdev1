@@ -167,7 +167,7 @@ hr{
     .bullet { width:  10%;}
 }
 .family{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 @media only screen and (max-width: 900px) {
